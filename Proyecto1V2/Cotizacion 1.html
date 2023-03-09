@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cotización de Envío</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #fff;
+			border-radius: 5px;
+			box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+		}
+		h1 {
+			font-size: 24px;
+			font-weight: bold;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		table {
+			width: 100%;
+			margin-bottom: 20px;
+			border-collapse: collapse;
+		}
+		th, td {
+			padding: 10px;
+			text-align: left;
+			border: 1px solid #ddd;
+		}
+		th {
+			background-color: #264653;
+			color: white;
+			font-weight: bold;
+			text-align: center;
+			vertical-align: middle;
+			min-width: 150px;
+		}
+		td {
+			vertical-align: middle;
+		}
+		.total {
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Cotización de Envío</h1>
+		<table>
+			<tr>
+				<th colspan="2">Origen</th>
+				<th colspan="2">Destino</th>
+			</tr>
+			<tr>
+				<th>Departamento:</th>
+				<td>El Progreso</td>
+				<th>Departamento:</th>
+				<td>Zacapa</td>
+			</tr>
+			<tr>
+				<th>Municipio:</th>
+				<td>Morazán</td>
+				<th>Municipio:</th>
+				<td>Gualán</td>
+			</tr>
+			<tr>
+				<th>Dirección:</th>
+				<td>Direccion origen final</td>
+				<th>Dirección:</th>
+				<td>Direccion destino final</td>
+			</tr>
+			<tr>
+				<th>Cantidad de Paquetes:</th>
+				<td>10</td>
+				<th>Peso del Paquete (en libras):</th>
+				<td>2</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<th>Servicio</th>
+				<th>Total</th>
+			</tr>
+			<tr>
+				<td>Servicio Estándar</td>
+				<td class="total">1173.6</td>
+			</tr>
+			<tr>
+				<td>Servicio Especial</td>
+				<td class="total">709.6</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

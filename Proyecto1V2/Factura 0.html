@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Factura</title>
+	<style type="text/css">
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			font-family: Arial, Helvetica, sans-serif;
+			padding: 20px;
+			border: 1px solid #ccc;
+			background-color: #fff;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+		}
+
+		.header {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 20px;
+		}
+
+		.header h1 {
+			font-size: 36px;
+			font-weight: bold;
+			margin: 0;
+		}
+
+		.header p {
+			font-size: 14px;
+			margin: 0;
+		}
+
+		.separator {
+			border-top: 1px solid #ccc;
+			margin: 20px 0;
+		}
+
+		.details {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 20px;
+		}
+
+		.details div {
+			width: 50%;
+		}
+
+		.details h2 {
+			font-size: 24px;
+			font-weight: bold;
+			margin: 0;
+		}
+
+		.details p {
+			font-size: 16px;
+			margin: 0;
+		}
+
+		.table {
+			width: 100%;
+			border-collapse: collapse;
+		}
+
+		.table th {
+			background-color: #f2f2f2;
+			border: 1px solid #ccc;
+			padding: 10px;
+			text-align: left;
+		}
+
+		.table td {
+			border: 1px solid #ccc;
+			padding: 10px;
+		}
+
+		.total {
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-end;
+			align-items: center;
+			margin-top: 20px;
+		}
+
+		.total h2 {
+			font-size: 36px;
+			font-weight: bold;
+			margin: 0;
+			margin-right: 20px;
+		}
+
+		.total p {
+			font-size: 18px;
+			margin: 0;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div>
+				<h1>Factura</h1>
+				<p>Fecha de emisión: 8/3/2023</p>
+			</div>
+			<div>
+				
+				<p>Numero de factura: 0</p>
+				<p>Codigo de paquete: IPC1C91xLW</p>
+
+			</div>
+			
+		</div>
+
+		<div class="details">
+
+			<div>
+				<h2>Información fiscal</h2>
+				<p>NIT: 1550825-0</p>
+				<p>Nombre o razón social: Fernando Alvarado</p>
+			</div>
+			<div>
+				<h2>Información de pago</h2>
+				<p>Tipo de pago: Pago con tarjeta</p>
+			</div>
+		</div>
+
+	
+
+		<div class="details">
+
+			<div>
+				<h2>Origen</h2>
+				<p>Region: Suroccidente</p>
+				<p>Departamento: Retalhuleu</p>
+				<p>Municipio: Santa Cruz Muluá</p>
+				<p>Direccion: 18 Calle 24 avenida 12-7 zona 4</p>
+			</div>
+			<div>
+				<h2>Destino</h2>
+				<p>Region: Suroriente</p>
+				<p>Departamento: Jalapa</p>
+				<p>Municipio: Mataquescuintla</p>
+				<p>Direccion: Avenida los alamos, casa 18-02 Zona 1</p>
+			</div>
+
+		</div>
+
+		
+
+
+		<div class="separator"></div>
+
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Descripción</th>
+					<th>Peso del paquete</th>
+					<th>Cantidad de paquetes</th>
+					<th>Subtotal</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Paquete</td>
+					<td>2 lbs</td>
+					<td>3</td>
+					<td>232.08</td>
+				</tr>
+
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="3">Total</td>
+					<td>232.08</td>
+				</tr>
+			</tfoot>
+		</table>
+		
+		<div class="total">
+			<h2>Total:</h2>
+			<p>232.08</p>
+		</div>
+	</div>
+	</body>
+	</html>
