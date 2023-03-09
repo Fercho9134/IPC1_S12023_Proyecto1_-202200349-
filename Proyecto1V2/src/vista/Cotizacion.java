@@ -1021,6 +1021,8 @@ public class Cotizacion extends javax.swing.JPanel {
         }
         txtCVV.setEnabled(false);
         lstTarjetas.setEnabled(false);
+        btnCancelarCotizacion.setEnabled(true);
+        btnGuardarCotizacion.setEnabled(true);
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

@@ -184,7 +184,7 @@ public class Login extends javax.swing.JFrame {
             }
         }
 
-        if (correo.equals("admin") && contrasena.equals("admin")) {
+        if (correo.equals("ipc1_202200349@ipc1delivery.com") && contrasena.equals("202200349")) {
             String mensaje = "Bienvenido Fernando\n Rol: Administrador";
             JOptionPane.showMessageDialog(null, mensaje);
             existe = true;
